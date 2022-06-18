@@ -23,7 +23,7 @@ const onClickAdd = () => {
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "削除";
   deleteButton.addEventListener("click", () => {
-    console.log("削除");
+    deleteButton.parentElement.remove();
   });
   div.appendChild(completeButton);
   div.appendChild(deleteButton);

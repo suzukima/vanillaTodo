@@ -1,3 +1,30 @@
 body {
   font-family: sans-serif;
 }
+
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.incomplete-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.complete-area {
+  background-color: #ffffe0;
+  width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.list-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
